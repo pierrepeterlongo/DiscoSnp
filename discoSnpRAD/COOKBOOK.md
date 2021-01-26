@@ -40,12 +40,12 @@ ls set*.fastq.gz > my_fof.txt
 
 > **Reminder**DiscoSnp-RAD can analyse fastq or fasta files, gzipped or not.  
 
-> **Note**If you wish to run DiscoSnp-RAD from a directory distinct from the one containing the read datasets, you have to indicate the absolute paths in the fof:```bash  
+> **Note** If you wish to run DiscoSnp-RAD from a directory distinct from the one containing the read datasets, you have to indicate the absolute paths in the fof:
+
+> ```bash  
 > ls -d $PWD/set*.fastq.gz > my_fof.txt  
->
 > ```  
-> 
-> ```
+
 
 **Second**, run discoSnp-RAD, using the input fof:
 
